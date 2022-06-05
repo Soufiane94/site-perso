@@ -1,0 +1,26 @@
+
+
+
+<mat-grid-list cols="1" rowHeight="8:1">
+  <mat-grid-tile>
+    <mat-form-field appearance="fill">
+      <mat-label>Nom et prénom</mat-label>
+      <input matInput>
+    </mat-form-field>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <mat-form-field appearance="fill">
+      <mat-label>Saisissez votre email</mat-label>
+      <input matInput placeholder="pat@example.com" [formControl]="email" required>
+      <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+    </mat-form-field>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <mat-form-field appearance="fill">
+      <mat-label>Message</mat-label>
+      <textarea matInput></textarea>
+    </mat-form-field>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<button mat-stroked-button style="margin-left: 50%;" >Envoyer</button>

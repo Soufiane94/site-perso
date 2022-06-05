@@ -1,0 +1,6 @@
+.header{
+    justify-content: flex-start;
+}
+span + span {
+    margin-left: 10px;
+}

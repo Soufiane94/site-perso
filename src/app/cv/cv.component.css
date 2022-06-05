@@ -1,0 +1,12 @@
+.profile-card {
+    max-width: 400px;
+    margin:auto;
+    margin-top: 100px;
+
+  }
+  
+  .profile-header-image{
+    background-image: url('https://media-exp1.licdn.com/dms/image/C4D03AQH-8aKANXYPWg/profile-displayphoto-shrink_200_200/0/1638172433018?e=1660176000&v=beta&t=0Sc8swe4KOPRdnA1c3WX0TQik_OYSAzdHpB5lfJiwZw');
+    background-size: cover;
+  }
+  
